@@ -2,4 +2,9 @@
 <resources>
     <dimen name="heightLogoUmss">300dp</dimen>
     <dimen name="heightTolbar">100dp</dimen>
+    <dimen name="cardCornerRadius">4dp</dimen>
+    <dimen name="imageHome">200dp</dimen>
+
+    <dimen name="titleOne">20sp</dimen>
+    <dimen name="marginGeneral">10dp</dimen>
 </resources>
