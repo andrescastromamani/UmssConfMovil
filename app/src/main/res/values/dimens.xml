@@ -7,4 +7,6 @@
 
     <dimen name="titleOne">20sp</dimen>
     <dimen name="marginGeneral">10dp</dimen>
+    <dimen name="itemScheduleHour">30sp</dimen>
+    <dimen name="itemScheduleDate">20sp</dimen>
 </resources>
