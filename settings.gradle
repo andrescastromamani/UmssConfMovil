@@ -1,0 +1,2 @@
+rootProject.name = "UmssConf"
+include ':app'
