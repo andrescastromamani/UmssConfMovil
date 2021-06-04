@@ -13,7 +13,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:layout_marginRight="10dp">
             <TextView
                 android:id="@+id/itemScheduleHour"
                 android:layout_width="match_parent"
@@ -38,6 +39,37 @@
             android:layout_height="wrap_content"
             android:layout_weight="3"
             android:orientation="vertical">
+            <TextView
+                android:id="@+id/itemScheduleTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="titulo de la conferencia"
+                android:textSize="20sp"
+                android:textColor="@color/dark"
+                android:ellipsize="end"
+                android:lines="1">
+            </TextView>
+            <TextView
+                android:id="@+id/itemScheduleSubtitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="name speaker"
+                android:textSize="15sp"
+                android:textColor="@color/purple_700"
+                android:ellipsize="end"
+                android:lines="1">
+            </TextView>
+            <TextView
+                android:id="@+id/itemScheduleTag"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tag"
+                android:textSize="15sp"
+                android:textColor="@color/purple_700"
+                android:ellipsize="end"
+                android:lines="1">
+            </TextView>
+
         </LinearLayout>
     </LinearLayout>
 
