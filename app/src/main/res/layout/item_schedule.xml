@@ -61,13 +61,14 @@
             </TextView>
             <TextView
                 android:id="@+id/itemScheduleTag"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Tag"
                 android:textSize="15sp"
-                android:textColor="@color/purple_700"
+                android:textColor="@color/white"
                 android:ellipsize="end"
-                android:lines="1">
+                android:lines="1"
+                android:background="@drawable/shape_topico">
             </TextView>
 
         </LinearLayout>
