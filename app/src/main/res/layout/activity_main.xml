@@ -24,7 +24,16 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"
+        tools:ignore="ExtraText">
+        <fragment
+            android:id="@+id/fragmentsContent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/navbarMenu"
+            app:navGraph="@navigation/nav_graph"
+            app:defaultNavHost="true"/>
+
         <com.google.android.material.bottomnavigation.BottomNavigationView
             android:id="@+id/navbarMenu"
             android:layout_width="match_parent"

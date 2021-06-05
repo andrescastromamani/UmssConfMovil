@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "934403605318",
+    "project_id": "umssconf",
+    "storage_bucket": "umssconf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:934403605318:android:b67ddfd5f71fcef064db47",
+        "android_client_info": {
+          "package_name": "com.acm.umssconf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "934403605318-qe53ulrfn2u3mfja2m3lk8r7coebfef6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnuwMRJtX9HdqOBUsmkxcto-ICBrgAppk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "934403605318-qe53ulrfn2u3mfja2m3lk8r7coebfef6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
