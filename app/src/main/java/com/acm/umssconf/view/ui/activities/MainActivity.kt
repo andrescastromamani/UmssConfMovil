@@ -1,11 +1,11 @@
-package com.acm.umssconf
+package com.acm.umssconf.view.ui.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.acm.umssconf.R
 import com.acm.umssconf.model.Conference
 import com.acm.umssconf.model.Speaker
 import com.google.firebase.firestore.FirebaseFirestore
-import com.google.firebase.ktx.Firebase
 import org.json.JSONArray
 import org.json.JSONObject
 import java.util.*

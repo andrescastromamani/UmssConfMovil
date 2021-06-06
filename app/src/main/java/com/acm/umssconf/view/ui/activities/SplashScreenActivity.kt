@@ -1,4 +1,4 @@
-package com.acm.umssconf.ui.activities
+package com.acm.umssconf.view.ui.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
